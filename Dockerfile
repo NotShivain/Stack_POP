@@ -1,4 +1,5 @@
-FROM python:3.11-alpine
+FROM python:3.10-slim
+
 RUN apk update
 RUN apk add py-pip
 RUN apk add --no-cache python3-dev
